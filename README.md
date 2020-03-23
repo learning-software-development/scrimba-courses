@@ -5,7 +5,7 @@
 
 ## MyCourses
 
-1. ✅ [learn vue.js for free](learn-vuejs-for-free/README.md)
+1. ✅ [Learn Vue.js for free](learn-vuejs-for-free/README.md)
 
 The source code is free -- see the [LICENSE](LICENSE) file for details
 
