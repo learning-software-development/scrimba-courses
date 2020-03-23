@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learn Vuejs for Free</title>
+    <meta name="description" content="Learning Vue.js for free from the Scrimba tutorials." />
+
+    <link rel="stylesheet" href="../node_modules/minireset.css/minireset.css" />
+    <link rel="stylesheet" href="styles/debug.css" />
+    <link rel="stylesheet" href="styles/emoji-color-picker.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" />
+  </head>
+
+  <body>
+    <div id="app" v-bind:style="gradient(active)">
+      <swatch
+        v-for="swatch in swatches"
+        v-on:click.native="activate(swatch)"
+        v-bind:active="active"
+        v-bind:swatch="swatch"
+        :effect="gradient"
+      ></swatch>
+    </div>
+
+    <script src="scripts/emoji-color-picker.js"></script>
+  </body>
+</html>

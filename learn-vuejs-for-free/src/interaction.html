@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learn Vuejs for Free</title>
+    <meta name="description" content="Learning Vue.js for free from the Scrimba tutorials." />
+
+    <link rel="stylesheet" href="../node_modules/minireset.css/minireset.css" />
+    <link rel="stylesheet" href="styles/debug.css" />
+    <link rel="stylesheet" href="styles/interaction.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" />
+  </head>
+
+  <body>
+    <div id="app" v-bind:style="{ background: background() }">
+      <p v-html="active" v-on:click="animagus" v-bind:class="breathe()"></p>
+    </div>
+
+    <script src="scripts/interaction.js"></script>
+  </body>
+</html>

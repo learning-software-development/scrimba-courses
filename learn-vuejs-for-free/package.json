@@ -1,0 +1,49 @@
+{
+  "name": "learn-vuejs-for-free",
+  "description": "Learn Vue.js for free with Brunch",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [
+    "tutorial",
+    "vuejs",
+    "scrimba",
+    "parcel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/learning-software-development/"
+  },
+  "author": "Quintin Henn <quintin.henn@gmail.com> (shttp://skerwe.web.za)",
+  "license": "Unlicense",
+  "scripts": {
+    "start": "npm run copy:dev-assets && parcel serve src/**.html -d build",
+    "build": "npm run clean:dist && npm run copy:dist-assets && parcel build src/**.html -d dist",
+    "test": "npm run lint",
+    "copy:dev-assets": "cpx src/emojis/* build/emojis",
+    "copy:dist-assets": "cpx src/emojis/* dist/emojis",
+    "clean:dev": "rimraf build",
+    "clean:dist": "rimraf dist",
+    "format": "prettier --write src/**/*.{html,css,js}",
+    "check": "prettier --check src/**/*.{html,css,js}",
+    "lint": "eslint src/scripts/"
+  },
+  "dependencies": {
+    "minireset.css": "0.0.6",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.19.1",
+    "rimraf": "^3.0.2"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
