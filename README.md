@@ -2,12 +2,12 @@
 
 Scrimba online courses I completed to grow my skill and knowledge.
 
-⬜️ Incomplete course  
-✅ Course complete
+:heavy_check_mark: Completed  
+:o: Incomplete
 
 ## MyCourses
 
-1. ✅ [Learn Vue.js for free](learn-vuejs-for-free)
+1. :heavy_check_mark: [Learn Vue.js for free](learn-vuejs-for-free)
 
 ## License
 
