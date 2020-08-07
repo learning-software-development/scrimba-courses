@@ -1,4 +1,6 @@
-# [Learn Vue.js for free][course]
+# :mortar_board: Learn Vue.js for free
+
+:link: Scrimba [online course][course]
 
 ## Tools
 
