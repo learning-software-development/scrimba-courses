@@ -7,7 +7,9 @@ These are all the [Scrimba][scrimba] online courses I completed to grow my skill
 
 ## :beginner: Tutorials and Courses
 
-1. :heavy_check_mark: [Learn Vue.js for free](learn-vuejs-for-free/)
+1. :heavy_check_mark: [Introduction to HTML](https://scrimba.com/learn/html)
+2. :heavy_check_mark: [Learn Vue.js for free](learn-vuejs-for-free/)
+3. :heavy_check_mark: [Learn Bulma CSS for free](https://scrimba.com/learn/bulma)
 
 ## :page_with_curl: License
 
