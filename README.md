@@ -13,6 +13,12 @@ These are all the [Scrimba][scrimba] online courses I completed to grow my skill
 4. :o: [Introduction to TypeScript](https://scrimba.com/learn/intrototypescript)
 5. :heavy_check_mark: [Introduction to CSS](https://scrimba.com/learn/introtocss)
 6. :o: [Learn Python for free](https://scrimba.com/learn/python)
+7. :o: [Build AI Apps with ChatGPT, Dall-E and GPT-4](https://scrimba.com/learn/buildaiapps)
+   - :o: MoviePitch: OpenAI movie idea generator
+
+## Requires Scrimba subscription
+
+- :no_entry_sign: [Learn Markdown](https://scrimba.com/learn/markdownblog)
 
 ## :page_with_curl: License
 
