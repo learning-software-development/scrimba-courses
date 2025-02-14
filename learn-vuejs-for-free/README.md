@@ -12,13 +12,13 @@
 
 To run in development mode
 
-```
+```cmd
 npm start
 ```
 
 To run in production mode
 
-```
+```cmd
 npm run build
 ```
 
