@@ -13,7 +13,7 @@ These are all the [Scrimba][scrimba] online courses I completed to grow my skill
 4. :o: [Introduction to TypeScript](https://scrimba.com/learn/intrototypescript) :link:
 5. :heavy_check_mark: [Introduction to CSS](https://scrimba.com/introduction-to-css-c022) :link:
 6. :heavy_check_mark: [Learn Python for free](https://scrimba.com/learn-python-c03) :link:
-7. :o: [Build a Memory Game in React](https://scrimba.com/memory-game-in-react-c0a3odsk39)
+7. :heavy_check_mark: [Build a Memory Game in React](https://scrimba.com/memory-game-in-react-c0a3odsk39)
 8. :heavy_check_mark: [Learn Markdown](https://scrimba.com/learn-markdown-c01j)
 
 ## :page_with_curl: License
